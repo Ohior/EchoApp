@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Echo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start_recording">Start</string>
+    <string name="logo_description">Select Record Time</string>
+    <string name="recording">Recording…</string>
+    <string name="stop">STOP</string>
+    <string name="adjust">Adjust Your Voice Quality</string>
+    <string name="selecting_time_will">Select Time and Tell Echo The Time Duration You Want to Save </string>
+    <string name="time">24hrs Ago</string>
+    <string name="_60_mins">1 hr Ago</string>
+    <string name="_5_mins">10 Mins Ago</string>
+    <string name="select_max_recording_time">Select Max Recording Time</string>
+    <string name="keep_track_of_what_s_going_on_in_the_background">Easily Keep Track of What\'s Going on in Your Background</string>
+    <string name="echo_lets_you_go_back_in_time_and_listen_to_events_from_your_past">Echo Lets You go Back in Time and Listen to Events From Your Past</string>
+    <string name="setting">Settings</string>
+    <string name="record_the_past">Record the Past</string>
+</resources>

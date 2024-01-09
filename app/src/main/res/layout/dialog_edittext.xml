@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <!-- Your Logo as an ImageView -->
+    <ImageView
+        android:id="@+id/image_logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/logo_description"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo" />
+
+    <!-- TextView for instruction -->
+    <TextView
+        android:id="@+id/text_instruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Recording time"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_below="@id/image_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+    <!-- Buttons for Recording Options -->
+    <Button
+        android:id="@+id/button_5_minutes"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="5 Minutes" />
+
+    <Button
+        android:id="@+id/button_60_minutes"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_5_minutes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="60 Minutes" />
+
+    <Button
+        android:id="@+id/button_infinity"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_60_minutes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Infinity" />
+
+</RelativeLayout>

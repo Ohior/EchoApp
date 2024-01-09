@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <!-- Buffer Duration -->
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="263dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Background Voice Standard"
+        android:textSize="20sp"
+
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupBufferDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioButton0Min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:text="Low"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/radioButton1Min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/blue"
+            android:text="Medium" />
+
+        <RadioButton
+            android:id="@+id/radioButton5Min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:text="High"/>
+
+        <!-- Add more options as needed -->
+
+    </RadioGroup>
+
+    <!-- Recording Quality -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose an Audio Quality"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerRecordingQuality"
+        android:layout_width="match_parent"
+        android:background="@color/blueoff"
+        android:layout_height="25dp"/>
+
+    <!-- Other preferences -->
+    <!-- Add additional settings components here -->
+
+    <!-- Save Button -->
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:background="@drawable/bg_button"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/buttonSaveSettings"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>
