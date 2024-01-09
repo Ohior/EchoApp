@@ -1,11 +1,11 @@
 
 ### Main Goals:
 1. **Background Recording:** The app records audio in the background using a foreground service.
-2. **Segmentation:** It allows the user to specify a segment duration (9 minutes, 2 hours, 10 hours) and save that duration as a segment in a different folder.
+2. **Segmentation:** It allows the user to specify and cut a segment duration (10 minutes ago, 1 hours ago, 24 hours ago) it then save that duration as a segment in a different folder i.e inside the recording folder.
 
 ### Key Components:
-- **MainActivity:** Contains buttons to trigger the duration selection dialog.
-- **RecordingForegroundService:** Responsible for ongoing recording and handling the saving of segments.
+- **MainActivity:** Contains buttons to trigger and save the duration, by displaying a time selection dialog.
+- **RecordingForegroundService:** Responsible for ongoing and background recording and and it also handles the saving segments.
 
 ### Logic Overview:
 1. **MainActivity:**
